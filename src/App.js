@@ -4,6 +4,7 @@ import "./Header/Header"
 import Header from "./Header/Header";
 import Nav from "./Nav/Nav";
 import Dialog from "./Dialog/Dialog";
+import Post from "./Post/Post";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <Nav />
         <div className='app-wrapper-content'>
+            <Post />
             <div className='content'>
 <Dialog />
             </div>
